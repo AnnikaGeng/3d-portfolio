@@ -31,7 +31,7 @@ const ComputersCanvas = () => {
   
   useEffect(() => {
     // add event listener to the screen size
-    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    const mediaQuery = window.matchMedia('(max-width: 600px)');
     // set the initial state
     setIsMobile(mediaQuery.matches);
     // define the event handler
@@ -55,7 +55,7 @@ const ComputersCanvas = () => {
       <Html style={{position: "absolute", zIndex: -1}}>
      
       <div className='absolute z-0'>
-        <div className={`${isMobile ? "left-[-230px] w-[370px]": "left-[-600px]"} absolute top-[-250px]`} 
+        <div className={`${isMobile ? "-mx-44 w-[370px] my-10": "left-[-600px]"} absolute top-[-250px]`} 
             style={{ userSelect: 'none' }}>
           <h1 className={`${styles.heroHeadText} text-black my-3 z-0`}>Hi, I'm <span className='text-[#988272]'>Yi Geng</span></h1>
           <p className={`${styles.heroSubText} text-black-100`}>
