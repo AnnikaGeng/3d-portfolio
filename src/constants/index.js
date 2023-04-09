@@ -24,6 +24,7 @@ import {
     threejs,
     medlinker,
     modao,
+    memoTask,
   } from "../assets";
   
   export const navLinks = [
@@ -159,25 +160,25 @@ import {
   
   const projects = [
     {
-      name: "Trip Guide",
+      name: "MemoTask",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A simple task management app built with React.js, Node.js/Express.js, MongoDB, TailwindCSS and Vite",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "#",
+      image: memoTask,
+      source_code_link: "https://github.com/AnnikaGeng/memoTasks",
     },
   ];
   

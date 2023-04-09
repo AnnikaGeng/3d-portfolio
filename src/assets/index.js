@@ -32,6 +32,7 @@ import medlinker from "./company/medlinker.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import memoTask from "./memoTask.jpeg";
 
 export {
   logo,
@@ -65,4 +66,5 @@ export {
   react_native,
   modao,
   medlinker,
+  memoTask,
 };
