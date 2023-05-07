@@ -40,6 +40,7 @@ import mysql from "./tech/mysql.png";
 import python from "./tech/python.jpg";
 import sass from "./tech/sass.png";
 import bootstrap from "./tech/bootstrap.png";
+import background from "./background.png";
 
 export {
   logo,
@@ -81,4 +82,5 @@ export {
   python,
   sass,
   bootstrap,
+  background,
 };

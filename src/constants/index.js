@@ -65,7 +65,18 @@ import {
   ];
   
   const technologies = [
-    
+    {
+      name: "Java Spring",
+      icon: javaSpring,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -73,10 +84,6 @@ import {
     {
       name: "CSS 3",
       icon: css,
-    },
-    {
-      name: "jQuery",
-      icon: jquery,
     },
     {
       name: "React JS",
@@ -89,10 +96,6 @@ import {
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
     },
     {
       name: "Sass",
@@ -118,18 +121,7 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "Java Spring",
-      icon: javaSpring,
-    },
-    {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
+    
   ];
   
   const experiences = [
