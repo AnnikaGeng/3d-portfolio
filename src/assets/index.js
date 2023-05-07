@@ -33,6 +33,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import memoTask from "./memoTask.jpeg";
+import petSaas from "./petSaas.png";
+import javaSpring from "./tech/javaSpring.jpg";
+import jquery from "./tech/jquery.png";
+import mysql from "./tech/mysql.png";
+import python from "./tech/python.jpg";
+import sass from "./tech/sass.png";
+import bootstrap from "./tech/bootstrap.png";
 
 export {
   logo,
@@ -67,4 +74,11 @@ export {
   modao,
   medlinker,
   memoTask,
+  petSaas,
+  javaSpring,
+  jquery,
+  mysql,
+  python,
+  sass,
+  bootstrap,
 };

@@ -25,6 +25,13 @@ import {
     medlinker,
     modao,
     memoTask,
+    petSaas,
+    javaSpring,
+    jquery,
+    mysql,
+    python,
+    sass,
+    bootstrap,
   } from "../assets";
   
   export const navLinks = [
@@ -58,6 +65,7 @@ import {
   ];
   
   const technologies = [
+    
     {
       name: "HTML 5",
       icon: html,
@@ -67,40 +75,60 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "jQuery",
+      icon: jquery,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "React Native",
+      icon: react_native,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "React Native",
-      icon: react_native,
+      name: "Bootstrap",
+      icon: bootstrap,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Sass",
+      icon: sass,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
       name: "Three JS",
       icon: threejs,
     },
     {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Java Spring",
+      icon: javaSpring,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
     },
   ];
   
@@ -162,10 +190,10 @@ import {
     {
       name: "MemoTask",
       description:
-        "A simple task management app built with React.js, Node.js/Express.js, MongoDB, TailwindCSS and Vite",
+        "Developed a Full-Stack task manager application that allows users to manage their daily tasks",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
@@ -176,10 +204,66 @@ import {
           name: "MongoDB",
           color: "pink-text-gradient",
         },
+        {
+          name: "Express.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "responsive",
+          color: "green-text-gradient",
+        }
       ],
       image: memoTask,
       source_code_link: "https://github.com/AnnikaGeng/memoTasks",
     },
+    {
+      name: "Dog care SaaS App",
+      description: "provided a scheduling Application for small businesses that take care of animals.",
+      tags: [
+        {
+          name: "Java Springboot",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "REST API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mySQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Hibernate",
+          color: "blue-text-gradient",
+        },
+        {
+          name:"Unit Tests",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jQuery",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "AWS",
+          color: "blue-text-gradient",
+        }
+      ],
+      image: petSaas,
+      source_code_link: "https://github.com/AnnikaGeng/petCare-frontend"
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
