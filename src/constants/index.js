@@ -259,16 +259,16 @@ import {
       source_code_link: "https://github.com/AnnikaGeng/petCare-frontend"
     },
     {
-      name: "GlowFit Gym Landing Page",
+      name: "GlowFit Gym Website",
       description: "Developed a responsive landing page for a gym using TypeScript, React, and Tailwind CSS, and deployed on Cloudflare.",
       tags: [
         {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
           name: "TypeScript",
           color: "green-text-gradient",
+        },
+        {
+          name: "React",
+          color: "blue-text-gradient",
         },
         {
           name: "Tailwind CSS",
@@ -283,7 +283,7 @@ import {
           color: "green-text-gradient",
         }
       ],
-      image: glowFit,
+      image: fit,
       source_code_link: "https://github.com/AnnikaGeng/fitness-frontend"
     }
   ];
