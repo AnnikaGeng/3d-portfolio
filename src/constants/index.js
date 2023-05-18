@@ -32,6 +32,8 @@ import {
     python,
     sass,
     bootstrap,
+    fit,
+    typescript
   } from "../assets";
   
   export const navLinks = [
@@ -118,8 +120,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "git",
-      icon: git,
+      name: "typescript",
+      icon: typescript,
     },
     
   ];
@@ -255,7 +257,36 @@ import {
       ],
       image: petSaas,
       source_code_link: "https://github.com/AnnikaGeng/petCare-frontend"
+    },
+    {
+      name: "GlowFit Gym Landing Page",
+      description: "Developed a responsive landing page for a gym using TypeScript, React, and Tailwind CSS, and deployed on Cloudflare.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "responsive",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Cloudflare",
+          color: "green-text-gradient",
+        }
+      ],
+      image: glowFit,
+      source_code_link: "https://github.com/AnnikaGeng/fitness-frontend"
     }
   ];
+  
   
   export { services, technologies, experiences, testimonials, projects };

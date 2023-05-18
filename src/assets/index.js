@@ -41,6 +41,7 @@ import python from "./tech/python.jpg";
 import sass from "./tech/sass.png";
 import bootstrap from "./tech/bootstrap.png";
 import background from "./background.png";
+import fit from "./fit.png";
 
 export {
   logo,
@@ -83,4 +84,5 @@ export {
   sass,
   bootstrap,
   background,
+  fit,
 };
