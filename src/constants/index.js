@@ -132,7 +132,7 @@ import {
       company_name: "Modao",
       icon: modao,
       iconBg: "white",
-      date: "Oct 2019 - Jul 2020",
+      date: "Jul 2019 - Jul 2020",
       points: [
         "Design a prototype share community, which gets 5000+ users every day",
         "Led 5+ components' design of the workspace, increased the efficiency of users.",
@@ -144,7 +144,7 @@ import {
       company_name: "Medlinker",
       icon: medlinker,
       iconBg: "#F7f7f7",
-      date: "Jun 2020 - Dec 2021",
+      date: "Jul 2020 - Dec 2021",
       points: [
         "Leading a development team of 10+ people to make products help patients recover.",
         "Designed application for 100+ seed users such as diabetes and nephrosis patients, with exercise advice, nutrition information, and hardware connection.",
