@@ -128,6 +128,18 @@ import {
   
   const experiences = [
     {
+      title: "Product manager",
+      company_name: "Medlinker",
+      icon: medlinker,
+      iconBg: "#F7f7f7",
+      date: "Jul 2020 - Dec 2021",
+      points: [
+        "Leading a development team of 10+ people to make products help patients recover.",
+        "Designed application for 100+ seed users such as diabetes and nephrosis patients, with exercise advice, nutrition information, and hardware connection.",
+        "Led the design of user points and redemptions system from 0 to 1, increasing the active user number by 10%.",
+      ],
+    },
+    {
       title: "Product Assistant",
       company_name: "Modao",
       icon: modao,
@@ -139,18 +151,6 @@ import {
         "Collected 400+ users' feedback and put into iterations through data analyses",
       ],
     },
-    {
-      title: "Product manager",
-      company_name: "Medlinker",
-      icon: medlinker,
-      iconBg: "#F7f7f7",
-      date: "Jul 2020 - Dec 2021",
-      points: [
-        "Leading a development team of 10+ people to make products help patients recover.",
-        "Designed application for 100+ seed users such as diabetes and nephrosis patients, with exercise advice, nutrition information, and hardware connection.",
-        "Led the design of user points and redemptions system from 0 to 1, increasing the active user number by 10%.",
-      ],
-    }
   ];
   
   const testimonials = [
@@ -177,7 +177,7 @@ import {
       designation: "CTO",
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    }
   ];
   
   const projects = [
