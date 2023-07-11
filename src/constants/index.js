@@ -144,7 +144,7 @@ import {
       company_name: "Modao",
       icon: modao,
       iconBg: "white",
-      date: "Jul 2019 - Jul 2020",
+      date: "Oct 2019 - Jul 2020",
       points: [
         "Design a prototype share community, which gets 5000+ users every day",
         "Led 5+ components' design of the workspace, increased the efficiency of users.",
