@@ -17,7 +17,7 @@ const Navbar = () => {
           window.scrollTo(0, 0);
         }}>
           <img src={logo} alt="logo" className='w-9 h-9 object-contain ml-6'/>
-          <p className='text-black text-[18px] font-bold cursor-pointer flex'>Yi &nbsp;
+          <p className='text-black text-[18px] font-bold cursor-pointer flex'>Annika &nbsp;
           <span className='sm:block hidden'>| Fullstack 
           Developer</span></p>
         </Link>
@@ -25,7 +25,7 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <li key={link.id} className={`${
               active === link.title ? "text-black" : "text-brown"
-            } hover:text-white text-[18px] font-medium cursor-pointer`} 
+            } hover:text-black text-[18px] font-medium cursor-pointer`} 
             onClick={() => setActive(link.title)}>
               <a href={`#${link.id}`}>{link.title}</a>
             </li>

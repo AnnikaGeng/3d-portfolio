@@ -23,11 +23,10 @@ import threejs from "./tech/threejs.svg";
 import react_native from "./tech/react_native.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import modao from "./company/modao.png";
 import medlinker from "./company/medlinker.png";
+import kerry from "./company/kerry.png";
+import babylon from "./company/babylon.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -66,15 +65,14 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   react_native,
   modao,
   medlinker,
+  kerry,
+  babylon,
   memoTask,
   petSaas,
   javaSpring,

@@ -14,13 +14,6 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     medlinker,
     modao,
@@ -33,7 +26,9 @@ import {
     sass,
     bootstrap,
     fit,
-    typescript
+    typescript,
+    kerry,
+    babylon
   } from "../assets";
   
   export const navLinks = [
@@ -128,8 +123,33 @@ import {
   
   const experiences = [
     {
+      title: "Software Developer Internship",
+      company_name: "Babylon | Dublin, Ireland",
+      icon: babylon,
+      iconBg: "#F7f7f7",
+      date: "Jul 2023 - Now",
+      points: [
+        "Utilized Python and Django Rest Framework to build the backend API, enabling efficient data communication between the app and the server.",
+        "Conducted thorough testing and debugging to identify and resolve any potential issues in the authentication and API functionalities.",
+        "Assisted in optimizing the app's overall performance, contributing to a more user-friendly experience.",
+      ],
+    },
+    {
+      title: "Technical Consultant",
+      company_name: "Kerry Group | Cork, Ireland",
+      icon: kerry,
+      iconBg: "#F7f7f7",
+      date: "Feb 2023 - Aug 2023",
+      points: [
+        "University & Industry Collaboration Project",
+        "Collaborated with the Kerry Group team to identify opportunities for integrating IT technologies within the food industry, aiming to enhance processes and improve overall efficiency.",
+        "Conducted interviews with industry specialists, gathering valuable insights and feedback to inform the development process and ensure alignment with industry best practices.",
+        "Analyzed data and research findings to identify trends and emerging technologies, enabling the project to stay at the forefront of IT advancements within the food sector.",
+      ],
+    },
+    {
       title: "Product manager",
-      company_name: "Medlinker",
+      company_name: "Medlinker | Beijing, China",
       icon: medlinker,
       iconBg: "#F7f7f7",
       date: "Jul 2020 - Dec 2021",
@@ -141,7 +161,7 @@ import {
     },
     {
       title: "Product Assistant",
-      company_name: "Modao",
+      company_name: "Modao | Beijing, China",
       icon: modao,
       iconBg: "white",
       date: "Oct 2019 - Jul 2020",

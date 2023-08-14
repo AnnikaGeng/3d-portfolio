@@ -12,10 +12,10 @@ const Hero = ({onClick}) => {
     <section className='relative w-full h-screen mx-auto'>
 
       {/* <ComputersCanvas /> */}
-      <div className="inline-block md:mx-28 my-28 md:w-[45%] mx-10">
-      <h1 className={`${styles.heroHeadText} text-black z-0 mt-0`}>Hi, I'm <span className='text-[#988272]'>Yi Geng</span></h1>
+      <div className="inline-block md:mx-28 my-28 md:w-[60%] mx-10">
+      <h1 className={`${styles.heroHeadText} text-black z-0 mt-0`}>Hi, I'm <span className='text-[#988272]'>Annika Geng</span></h1>
       <p className={`${styles.heroSubText} text-black-100`}>
-          I'm a Junior full stack developer, based in Europe<br className='sm:block hidden' />
+          I'm a Junior full stack developer<br className='sm:block hidden' />
       </p>
       </div>
      
